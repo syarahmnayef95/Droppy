@@ -1,0 +1,3 @@
+rootProject.name = "Droppy"
+include ':app'
+include ':Droppy-master'

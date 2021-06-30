@@ -1,0 +1,52 @@
+R_DEF: Internal format may change without notice
+local
+attr? droppyMenuItemIconStyle
+attr? droppyMenuItemStyle
+attr? droppyMenuItemTitleStyle
+attr? droppyMenuSeparatorStyle
+attr? droppyMenuStyle
+attr? droppyPopupStyle
+bool default_menu_item_clickable
+color default_menu_item_title_textColor
+color droppy_separator
+color droppy_title_color
+dimen default_menu_item_icon_marginLeft
+dimen default_menu_item_icon_marginRight
+dimen default_menu_item_icon_maxHeight
+dimen default_menu_item_icon_maxWidth
+dimen default_menu_item_minHeight
+dimen default_menu_item_minWidth
+dimen default_menu_item_paddingBottom
+dimen default_menu_item_paddingLeft
+dimen default_menu_item_paddingRight
+dimen default_menu_item_paddingTop
+dimen default_menu_item_title_layout_width
+dimen default_menu_item_title_minHeight
+dimen default_menu_item_title_minWidth
+dimen default_menu_separator_height
+dimen default_menu_separator_marginBottom
+dimen default_menu_separator_marginTop
+drawable bt_bg_popupmenu
+drawable default_menu_item_background
+drawable default_menu_separator_background
+drawable default_popup_background
+drawable droppy_list_item_normal
+drawable droppy_list_item_pressed
+drawable droppy_list_item_selector
+drawable droppy_separator_background
+string app_name
+style Droppy
+style Droppy.DroppyMenu
+style Droppy.DroppyMenuItem
+style Droppy.DroppyMenuItemIcon
+style Droppy.DroppyMenuItemTitle
+style Droppy.DroppyMenuSeparator
+style Droppy.DroppyPopup
+style Theme.DroppyDefaults
+styleable Droppy droppyPopupStyle droppyMenuStyle droppyMenuSeparatorStyle droppyMenuItemStyle droppyMenuItemTitleStyle droppyMenuItemIconStyle
+styleable DroppyMenuContainerView android:layout_width android:layout_height android:orientation
+styleable DroppyMenuItemIconView android:maxWidth android:maxHeight android:layout_width android:layout_gravity android:layout_weight android:layout_height android:layout_marginLeft android:layout_marginRight
+styleable DroppyMenuItemTitleView android:textColor android:minWidth android:minHeight android:layout_height android:layout_width android:layout_gravity android:gravity android:layout_weight
+styleable DroppyMenuItemView android:minWidth android:minHeight android:layout_width android:layout_height android:clickable android:orientation android:gravity android:paddingTop android:paddingBottom android:paddingLeft android:paddingRight android:background
+styleable DroppyMenuPopupView android:layout_width android:layout_height android:background
+styleable DroppyMenuSeparatorView android:layout_height android:layout_width android:layout_marginTop android:layout_marginBottom android:orientation android:background
